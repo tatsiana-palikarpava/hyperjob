@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+<title>Vacancies</title>
+</head>
+<body>
+<h2>Vacancies:</h2>
+{%for v in vacancies%}
+<div>{{v.author}}: {{v.description}}</div>
+{%endfor%}
+<body>
+</html>

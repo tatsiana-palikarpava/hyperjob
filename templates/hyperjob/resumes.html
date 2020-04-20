@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+<title>Resumes</title>
+</head>
+<body>
+<h2>Resumes:</h2>
+{%for r in resumes%}
+<div>{{r.author}}: {{r.description}}</div>
+{%endfor%}
+<body>
+</html>
